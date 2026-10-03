@@ -1,10 +1,21 @@
-marks = int(input("Enter your marks: "))
+# marks = int(input("Enter your marks: "))
 
-if marks >= 75:
-    print("Grade A")
-elif marks >= 60:
-    print("Grade B")
-elif marks >= 40:
-    print("Grade C")
+# if marks >= 75:
+#     print("Grade A")
+# elif marks >= 60:
+#     print("Grade B")
+# elif marks >= 40:
+#     print("Grade C")
+# else:
+#     print("Fail")
+
+color=input("enter the color :")
+
+if color=="red":
+    print("Stop")
+
+elif color=="green":
+    print("go")
+
 else:
-    print("Fail")
+    print("look")
