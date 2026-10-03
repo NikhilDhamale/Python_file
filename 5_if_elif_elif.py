@@ -9,13 +9,30 @@
 # else:
 #     print("Fail")
 
-color=input("enter the color :")
+# color=input("enter the color :")
 
-if color=="red":
-    print("Stop")
+# if color=="red":
+#     print("Stop")
 
-elif color=="green":
-    print("go")
+# elif color=="green":
+#     print("go")
+
+# elif color=="yellow":
+#     print("look")
+
+# else :
+#     print("You enter the wrong color")
+
+
+
+age=int(input("enter the age : "))
+
+if (age<13):
+    print("child")
+
+elif (age<=13 and age < 18):
+    print("teenager")
 
 else:
-    print("look")
+    print("adult")
+        
